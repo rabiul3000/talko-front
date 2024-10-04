@@ -1,0 +1,13 @@
+.btn {
+	padding: 1rem;
+	outline-style: none;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: 1px solid lightgrey;
+
+	&:hover {
+		color: green;
+	}
+}

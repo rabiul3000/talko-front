@@ -1,0 +1,40 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	font-family: sans-serif;
+
+	.header {
+		padding-inline: 5rem;
+	}
+
+	.email,
+	.password {
+		padding: 1rem;
+	}
+
+	.submitBtn {
+		width: 27%;
+		padding-block: 0.4rem;
+		background: goldenrod;
+		border: none;
+
+		&:hover {
+			background-color: gold;
+		}
+	}
+	.redirectbtn {
+		font-size: x-small;
+		color: steelblue;
+		text-decoration: none;
+		border: 1px solid lightgrey;
+		padding: 0.2rem 1rem;
+
+		&:hover {
+			border: 1px solid grey;
+		}
+	}
+}
